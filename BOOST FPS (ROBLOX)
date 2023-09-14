@@ -193,7 +193,7 @@ local function CheckIfBad(Instance)
 end
 if _G.SendNotifications then
     StarterGui:SetCore("SendNotification", {
-        Title = "FPS BOOST",
+        Title = "Cargando FPS BOOST (Sigueme @ajk.al)",
         Text = "Loading FPS Booster...",
         Duration = math.huge,
         Button1 = "Okay"
@@ -215,7 +215,7 @@ coroutine.wrap(pcall)(function()
         else
             StarterGui:SetCore("SendNotification", {
                 Title = "FPS BOOST",
-                Text = "Your exploit does not support sethiddenproperty, please use a different exploit.",
+                Text = "Tu exploit No admite sethiddenproperty, por favor use un exploit diferente",
                 Duration = 5,
                 Button1 = "Okay"
             })
@@ -224,7 +224,7 @@ coroutine.wrap(pcall)(function()
         if _G.SendNotifications then
             StarterGui:SetCore("SendNotification", {
                 Title = "FPS BOOST",
-                Text = "Low Water Graphics Enabled",
+                Text = "Gráficos de baja agua habilitados",
                 Duration = 5,
                 Button1 = "Okay"
             })
@@ -244,7 +244,7 @@ coroutine.wrap(pcall)(function()
         else
             StarterGui:SetCore("SendNotification", {
                 Title = "FPS BOOST",
-                Text = "Your exploit does not support sethiddenproperty, please use a different exploit.",
+                Text = "Tu exploit no admite sethiddenproperty, por favor utiliza otro exploit.",
                 Duration = 5,
                 Button1 = "Okay"
             })
@@ -253,7 +253,7 @@ coroutine.wrap(pcall)(function()
         if _G.SendNotifications then
             StarterGui:SetCore("SendNotification", {
                 Title = "FPS BOOST",
-                Text = "No Shadows Enabled",
+                Text = "Sin sombras habilitadas",
                 Duration = 5,
                 Button1 = "Okay"
             })
@@ -270,7 +270,7 @@ coroutine.wrap(pcall)(function()
         if _G.SendNotifications then
             StarterGui:SetCore("SendNotification", {
                 Title = "FPS BOOST",
-                Text = "Low Rendering Enabled",
+                Text = "Renderizado Bajo Habilitado",
                 Duration = 5,
                 Button1 = "Okay"
             })
@@ -289,7 +289,7 @@ coroutine.wrap(pcall)(function()
         if _G.SendNotifications then
             StarterGui:SetCore("SendNotification", {
                 Title = "FPS BOOST",
-                Text = "Reset Materials Enabled",
+                Text = "Activado reinicio de materiales (Texturas)",
                 Duration = 5,
                 Button1 = "Okay"
             })
@@ -320,7 +320,7 @@ coroutine.wrap(pcall)(function()
                 if _G.SendNotifications then
                     StarterGui:SetCore("SendNotification", {
                         Title = "FPS BOOST",
-                        Text = "FPS Uncapped",
+                        Text = "FPS Ilimitado",
                         Duration = 5,
                         Button1 = "Okay"
                     })
@@ -332,7 +332,7 @@ coroutine.wrap(pcall)(function()
         else
             StarterGui:SetCore("SendNotification", {
                 Title = "FPS BOOST",
-                Text = "FPS Cap Failed",
+                Text = "FPS Ilimitado Fallido",
                 Duration = math.huge,
                 Button1 = "Okay"
             })
@@ -349,7 +349,7 @@ local StartNumber = _G.WaitPerAmount or 500
 local WaitNumber = _G.WaitPerAmount or 500
 if _G.SendNotifications then
     StarterGui:SetCore("SendNotification", {
-        Title = "FPS BOOST",
+        Title = " (Ya sigues a AJ?)",
         Text = "Checking " .. #Descendants .. " Instances...",
         Duration = 15,
         Button1 = "Okay"
@@ -370,7 +370,7 @@ for i, v in pairs(Descendants) do
 end
 StarterGui:SetCore("SendNotification", {
     Title = "FPS BOOST (Sigueme @ajk.al)",
-    Text = "FPS Booster Loaded!",
+    Text = "FPS Boost Cargado Correctamente",
     Duration = math.huge,
     Button1 = "Okay"
 })
