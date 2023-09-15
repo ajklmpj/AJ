@@ -369,7 +369,7 @@ for i, v in pairs(Descendants) do
     end
 end
 StarterGui:SetCore("SendNotification", {
-    Title = "FPS BOOST (Sigueme @ajk.al)",
+    Title = "FPS BOOST (Sigueme TK: @ajk.al YT: @Oficial-AJ)",
     Text = "FPS Boost Cargado Correctamente",
     Duration = math.huge,
     Button1 = "Okay"
